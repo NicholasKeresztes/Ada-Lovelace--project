@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ada Lovelace Survey</title>
+    <link rel="stylesheet" href="./survey.css">
+</head>
+<body>
+    <header id="ada-lovelace__nav">
+        <nav>
+            <div class="personal__logo"><a id="logo__editor" href="index.html">Ada Lovelace</a></div>
+            <ul class="nav__link--list">
+                    <li class="nav__link">
+                        <a
+                          href="./inventions.html"
+                          class="nav__link--anchor link__hover-effect link__hover-effect--black link__Inventions"
+                          >Inventions</a>
+                        </li>
+                        <li class="nav__link">
+                            <a
+                              href="./gallery.html"
+                              class="nav__link--anchor link__hover-effect link__hover-effect--black link__gallery"
+                              >Gallery</a>
+                            </li>
+            </ul>
+          </nav>
+    </div>
+    </header>
+    <section class="ada__survey">
+      <div class="survey__header">
+        <h1 class="header-1">
+          Ada Lovelace Quiz
+        </h1>
+        <p class="description-1">Thank you for taking our Quiz!</p>
+      </div>
+<div class="container">
+<form id="survey">
+  <div class="question">
+  <label for="name">Your Name: <input type="text" id="name" required></label>
+</div>
+<div class="question">
+  <label for="email">Your Email: <input type="email" id="email" required></label>
+</div>
+<div class="question">
+  <label for="number">Your Age: <input type="number" id="number" min="5" max="100"> (Optional)</label>
+</div>
+<hr>
+<div class="question">
+  <p class="q1">When was Ada Lovelace born?</p>
+ <label><input type="checkbox" name="checkbox1" id="checkbox"> 1997</label>
+ <label><input type="checkbox" name="checkbox2" id="checkbox"> 1968</label>
+ <label><input type="checkbox" name="checkbox3" id="checkbox"> 1815</label>
+ <label><input type="checkbox" name="checkbox4" id="checkbox"> 1789</label>
+</div>
+<div class="question">
+  <p class="q1">Was Ada Lovelace The first programmer</p>
+ <label for="radio"><input type="radio" name="radio" id="radio"> yes</label>
+ <label for="radio"><input type="radio" name="radio" id="radio"> no</label>
+ <label for="radio"><input type="radio" name="radio" id="radio"> maybe</label>
+</div>
+<div class="question">
+  <p class="q1">Who's Ada Lovelace's Parents?</p>
+ <select name="drop-down" id="dropdown">
+  <option value="dropdown">Select an Option</option>
+  <option value="dropdown">Lord Bryon and Lady Bryon</option>
+  <option value="dropdown">Zach lovelace and Donda Lovelace</option>
+  <option value="dropdown">Jacob Adrion and Clair Adrion</option>
+  <option value="dropdown">Mitchel Brian and Mia Brian</option>
+ </select>
+</div>
+<div class="question">
+<label for="submit"><input type="submit" id="submit"></label>
+</div>
+</form>
+</div>
+</section>
+</body>
+</html>

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVIGATION */
+
+body {
+    background-color: #edf0f5;
+}
+
+nav {
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.nav__link--list {
+    display: flex;
+}
+
+.nav__link {
+    display: flex;
+    margin: 8px;
+    padding: 12px;
+}
+
+.nav__link--anchor{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    padding: 12px;
+}
+
+.nav__link--anchor:hover {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    animation: 2.25ms ease all;
+}
+
+.link__quiz:hover {
+    background-color: blue;
+}
+
+/* LOGO */
+
+.personal__logo {
+    margin: 8px;
+    padding: 12px 24px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.personal__logo:hover {
+    text-decoration: underline 3.25px blue;
+    display: sticky;
+}
+
+#logo__editor {
+    text-decoration: none;
+}
+
+#logo__editor:visited {
+    color: rgb(0, 0, 0);
+}
+
+/* Survey CSS */ 
+.survey__header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+}
+.container {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+form {
+  padding: 36px;
+  width: auto;
+  background-color: rgb(68, 68, 211);
+  color: white;
+  border-radius: 6px;
+}
+
+.question {
+  padding: 12px;
+  font-size: 18px;
+  margin: auto;
+}
+
+#checkbox {
+margin: 0 12px;
+}
+
+#radio {
+margin: 0 12px;
+}
+
+#submit {
+    background-color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
+    animation: 5ms ease all;
+}
+
+.q1 {
+    font-weight: bold;
+    color: black;
+}
+
+#name, #email, #number, #dropdown {
+    padding: 3px 0;
+    border-radius: 1.5px;
+    border: none;
+}
+
+

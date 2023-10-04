@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVIGATION */
+
+body {
+    background-color: #edf0f5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80PX;
+    width: 1200px;
+}
+
+.nav__link--list {
+    display: flex;
+}
+
+.nav__link {
+    display: flex;
+    margin: 8px;
+    padding: 12px;
+}
+
+.nav__link--anchor{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    padding: 12px;
+}
+
+.nav__link--anchor:hover {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    animation: 2.25ms ease all;
+}
+
+.link__quiz:hover {
+    background-color: blue;
+}
+
+/* LOGO */
+
+.personal__logo {
+    margin: 8px;
+    padding: 12px 24px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.personal__logo:hover, .personal__logo:visited {
+    text-decoration: underline 3.25px blue;
+}
+
+
+#logo__editor {
+    text-decoration: none;
+}
+
+#logo__editor:visited {
+    color: rgb(0, 0, 0);
+}
+
+/* Inventions Page */ 
+
+#inventions__page {
+    display: flex;
+    justify-content: center;
+    margin: 36px 0;
+}
+.inventions__header{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.invention {
+    margin: 5px;
+    float: left;
+    width: 180px;
+}
+
+
+div.invention img {
+    width: 100%;
+    height: auto;
+}
+
+.code-img {
+    width: 1000px;
+    height: auto;
+}
